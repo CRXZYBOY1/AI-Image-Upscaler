@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "url": "https://github.com/CRXZYBOY1/AI-Image-Upscaler/releases/download/v1.0.0/CZ-UPSCALER-Setup-1.0.0.exe",
-  "notes_th": "เวอร์ชันแรกสำหรับลูกค้า — ขยายภาพ AI 6 โมเดล ส่งออกงานพิมพ์ครบ ระบบอัปเดตอัตโนมัติ หน้าต่างแจ้งอัปเดตดีไซน์ใหม่",
-  "notes_en": "First customer release",
-  "sha256": "48508874ab8641eb7dd7fc27a1dc21b0c9fa3896b47d64494bb24a884b3dbf07"
+  "version": "1.0.1",
+  "url": "https://github.com/CRXZYBOY1/AI-Image-Upscaler/releases/download/v1.0.1/CZ-UPSCALER-Setup-1.0.1.exe",
+  "notes_th": "• แก้ไอคอนทางลัดบนเดสก์ท็อป — ตอนนี้แสดงไอคอนโปรแกรมถูกต้อง (เคยเป็นกระดาษขาว)\n• ลดขนาดตัวติดตั้ง ~289MB (1.87GB → 1.60GB) — โหลดเร็วขึ้น ติดตั้งเร็วขึ้น\n• ย้ายโมเดลความคมสุด (SwinIR / Nomos8k DAT) ออกจากตัวติดตั้ง — ใครต้องการกดโหลดเพิ่มได้ที่ Model Manager (ใครไม่ใช้ก็ไม่ต้องโหลด)\n• แก้: เลือกโมเดลที่ยังไม่ได้โหลดจะไม่มี error อีกต่อไป (สลับไปโมเดลหลักอัตโนมัติ + แจ้งเตือน)\n• ฟีเจอร์ใหม่: AI ฟื้นฟูใบหน้าคมชัด (CodeFormer) ทำงานร่วมกับการขยายภาพอัตโนมัติ — เปิดสวิตช์ 'ปกป้องใบหน้า' ได้เลย ครั้งแรกโปรแกรมจะโหลดโมเดล 188MB",
+  "notes_en": "- Fixed: desktop shortcut icon (was blank) and installer size -289MB (1.87GB -> 1.60GB)\n- Heavy sharp models (SwinIR / Nomos8k DAT) moved to Model Manager as optional downloads\n- Fixed: selecting an undownloaded model no longer errors - falls back with a notice\n- New: AI face restoration (CodeFormer) integrated into the upscale pipeline",
+  "sha256": "980cd588990c2237a3d9db2d4c057f52f3cb57853c3c8104a33d47cc3426264c"
 }
